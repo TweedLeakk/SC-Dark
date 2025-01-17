@@ -1,0 +1,26 @@
+{
+  "name": "SC Dark by Tweed",
+  "description": "SoundCloud Dark Theme",
+  "version": "2025.01.17",
+  "permissions": [],
+  "icons": {"128": "scdark1.png" },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://soundcloud.com/*"],
+      "js": ["background.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_action": {
+    "default_title": "SC Dark by Tweed",
+    "default_icon":"scdark1.png"
+  },
+
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "css_dark.css"
+  ]
+}
