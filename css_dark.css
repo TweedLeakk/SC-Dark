@@ -542,8 +542,8 @@ input {
   filter: invert(80%) !important;
 }
 /* Likes Fix color */
-.sidebarHeader__actualTitle.sidebarHeader__actualTitle__webi__style {
-  color: #fff;
+span.sidebarHeader__actualTitle.sidebarHeader__actualTitle__webi__style {
+  color: #fff !important;
 }
 /* Fix empty profile page */
 .sc-font-body {
